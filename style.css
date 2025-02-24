@@ -703,6 +703,16 @@ span{
     .timeline-item:nth-child(even){
         padding-left: 37px;
     }
+    .home-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-content{
+        max-width: 100%;
+    }
+    .home-img{
+        margin-top: 2rem;
+    }
     .timeline-dot{
         left: 0;
     }
@@ -717,6 +727,13 @@ span{
     }
     .footer{
         padding: 2rem 3%;
+    }
+    .footer .social{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer .list li{
+        padding: 10px 0;
     }
 }
 @media(max-width: 768px){
@@ -738,7 +755,6 @@ span{
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display: none;
     }
     .navbar .active{
         display: flex;
