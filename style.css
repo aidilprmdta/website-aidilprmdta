@@ -93,28 +93,21 @@ section{
 .home{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 15rem;
     padding: 100px 15px;
+    background: var(--second-bg-color);
 }
 .home-container{
     display: flex;
     max-width: 1200px;
-    width: 50%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
 }
 .home-content{
-    display: flex;
     max-width: 600px;
     flex: 1;
-    flex-direction: column;
-    align-items: baseline;
-    text-align: left;
-    justify-content: center;
-    margin-top: 3rem;
 }
 span{
     color: var(--main-color);
@@ -135,8 +128,11 @@ span{
     line-height: 1;
 }
 .home-content p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
 }
 .home-img{
     flex: 1;
@@ -147,7 +143,8 @@ span{
     position: relative;
     top: 3rem;
     margin-right: 1rem;
-    width: 22vw;
+    width: 100%;
+    max-width: 400px;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -167,6 +164,7 @@ span{
 .social-icons{
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 .social-icons a{
     text-decoration: none;
@@ -619,10 +617,10 @@ span{
     height: 4.5rem;
     background: transparent;
     line-height: 42px;
-    display: contents;
+    display: inline-flex;
     text-align: center;
     border-radius: 50%;
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 0 10px;
     transition: 0.3s ease-in-out;
 }
 .footer .social a:hover{
@@ -634,12 +632,20 @@ span{
 .footer .list{
     display: flex;
     justify-content: center;
-    gap: 20px;
     margin-bottom: 10px;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
 }
 .footer .list a{
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+}
+.footer .list a:hover{
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 .footer p{
     margin: 0;
@@ -661,14 +667,12 @@ span{
     border-bottom: 3px solid var(--main-color);
 }
 .footer ul li{
-    display: inline-block;
     padding: 0 15px;
 }
 .footer .copyright{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 16px;
-    color: white;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: var(--text-color);
 }
 
 @media(max-width: 1285px){
@@ -775,5 +779,16 @@ span{
     }
     .contact form .input-group{
         flex-direction: column;
+    }
+    .footer .social{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer .list{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer ul li{
+        padding: 0;
     }
 }
