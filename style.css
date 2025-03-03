@@ -132,7 +132,6 @@ section {
     max-width: 50%;
     text-align: left;
     margin-left: auto;
-    /* Center the text */
     margin-right: auto;
     /* Center the text */
 }
@@ -814,7 +813,8 @@ span {
 
     .home-container {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-end;
+        /* Shift the content to the right */
         align-items: center;
         text-align: left;
     }
@@ -831,7 +831,6 @@ span {
 
     .home-img img {
         width: 20vw;
-        /* Adjust the size for larger screens */
     }
 
     .footer {
@@ -1092,7 +1091,7 @@ span {
     }
 
     .footer .social {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         gap: 10px;
     }
