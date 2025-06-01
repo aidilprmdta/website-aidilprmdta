@@ -33,31 +33,28 @@ website-aidilprmdta/
 
 1. **Clone repositori** ini:
 
-```bash
+``bash
 git clone https://github.com/aidilprmdta/website-aidilprmdta.git
-cd website-aidilprmdta
+cd website-aidilprmdta``
 
 2. Install dependency (pastikan Node.js & npm sudah terpasang):
-npm install
+``npm install``
 
 3. Jalankan server lokal:
-npm run dev
+``npm run dev``
 
-4. Akses website di http://localhost:3000
+4. Akses website di ``http://localhost:3000``
 
 🧑 Tentang Saya
 Saya Aidil Pramadita Putra, mahasiswa Teknik Informatika di UIN Sultan Syarif Kasim. Saya memiliki minat dalam web development, animasi digital, dan cybersecurity. Website ini adalah bagian dari eksplorasi dan pengembangan diri saya sebagai programmer.
 
 📬 Kontak
-Email: aidilpramaditap@gmail.com
+Email: pramadytaa@gmail.com
 
 Instagram: @aidilprmdta
 
-LinkedIn: (tambahkan jika ada)
+LinkedIn: Aidil Pramadita Putra
 
 📝 License
 Proyek ini dibuat untuk tujuan pembelajaran dan portofolio pribadi. Silakan gunakan sebagai referensi dengan atribusi yang sesuai.
 
----
-
-Jika kamu ingin menambahkan badge (seperti status build, lisensi, dsb.) atau live preview link (jika sudah dideploy), beri tahu saja, nanti aku bantu update!
