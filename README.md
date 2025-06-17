@@ -1,60 +1,66 @@
+# 🌐 Aidil Pramadita Website
 
-# 🌐 Website Aidil Pramadita
+This is a repository for my personal website, Aidil Pramadita Putra. This website was created to introduce myself, display my portfolio, and share information related to my interests and experiences in the technology field.
 
-Ini adalah repositori untuk website pribadi saya, Aidil Pramadita Putra. Website ini dibuat untuk memperkenalkan diri saya, menampilkan portofolio, serta membagikan informasi terkait minat dan pengalaman saya di bidang teknologi.
+## ✨ Features
 
-## ✨ Fitur
+- Personal profile with background information
+- List of interests and skills
+- Projects that have been created
+- Responsive (mobile-friendly) display
+- Interactive animations using Framer Motion
 
-- Profil pribadi dengan informasi latar belakang
-- Daftar minat dan keterampilan
-- Proyek-proyek yang telah dibuat
-- Tampilan responsif (mobile-friendly)
-- Animasi interaktif menggunakan Framer Motion
-
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
 - **Frontend**: HTML, Tailwind CSS, JavaScript
-- **Framework/Library**: Node.js (jika digunakan), Framer Motion
-- **Hosting**: GitHub Pages / Vercel *(opsional jika digunakan)*
+- **Framework/Library**: Node.js (if used), Framer Motion
+- **Hosting**: GitHub Pages / Vercel *(optional if used)*
 
-## 📂 Struktur Folder
+## 📂 Folder Structure
 
 website-aidilprmdta/
-├── public/ # File statis
-├── src/ # Source code utama
-│ ├── components/ # Komponen yang digunakan ulang
-│ ├── pages/ # Halaman utama (Home, About, Project, dll)
-│ └── assets/ # Gambar dan media lainnya
-├── tailwind.config.js # Konfigurasi Tailwind
-├── package.json # Dependency dan scripts
-└── README.md # Dokumentasi proyek
+├── public/ # Static files
 
-## 🚀 Cara Menjalankan (Development)
+├── src/ # Main source code
 
-1. **Clone repositori** ini:
+│ ├── components/ # Reused components
 
-``bash
-git clone https://github.com/aidilprmdta/website-aidilprmdta.git
+│ ├── pages/ # Main pages (Home, About, Project, etc.)
+
+│ └── assets/ # Images and other media
+
+├── tailwind.config.js # Tailwind configuration
+
+├── package.json # Dependencies and scripts
+
+└── README.md # Project documentation
+
+## 🚀 How to Run (Development)
+
+1. **Clone this repository**:
+
+``bash``
+
+``git clone https://github.com/aidilprmdta/website-aidilprmdta.git
 cd website-aidilprmdta``
 
-2. Install dependency (pastikan Node.js & npm sudah terpasang):
+2. Install dependencies (make sure Node.js & npm are installed):
 ``npm install``
 
-3. Jalankan server lokal:
+3. Run a local server:
 ``npm run dev``
 
-4. Akses website di ``http://localhost:3000``
+4. Access the website at ``http://localhost:3000``
 
-🧑 Tentang Saya
-Saya Aidil Pramadita Putra, mahasiswa Teknik Informatika di UIN Sultan Syarif Kasim. Saya memiliki minat dalam web development, animasi digital, dan cybersecurity. Website ini adalah bagian dari eksplorasi dan pengembangan diri saya sebagai programmer.
+## 🧑 About Me
+I am Aidil Pramadita Putra, an Informatics Engineering student at UIN Sultan Syarif Kasim. I have interests in web development, digital animation, and cybersecurity. This website is part of my exploration and self-development as a programmer.
 
-📬 Kontak
+## 📬 Contact
 Email: pramadytaa@gmail.com
 
 Instagram: @aidilprmdta
 
 LinkedIn: Aidil Pramadita Putra
 
-📝 License
-Proyek ini dibuat untuk tujuan pembelajaran dan portofolio pribadi. Silakan gunakan sebagai referensi dengan atribusi yang sesuai.
-
+## 📝 License
+This project is made for educational purposes and personal portfolio. Please use as a reference with proper attribution.
